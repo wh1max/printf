@@ -51,6 +51,8 @@ $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
     You might want to look at the gcc flag -Wno-format when testing with your _printf and the standard printf. Example of test file that you could use:
 
 alex@ubuntu:~/c/printf$ cat main.c 
+
+
 #include <limits.h>
 #include <stdio.h>
 #include "main.h"
