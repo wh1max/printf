@@ -38,10 +38,7 @@ General
 9. All your header files should be include guarded
 10. Note that we will not provide the _putchar function for this project
 
-GitHub
 
-There should be one project repository per group. The other members do not fork or clone the project to ensure only one of the team has the repository in their github account otherwise you risk scoring 0%
-More Info
 Authorized functions and macros
 
     write (man 2 write)
@@ -58,9 +55,7 @@ Your code will be compiled this way:
     
     $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 
-As a consequence, be careful not to push any c file containing a main function in the root directory of your project (you could have a test folder containing all your tests files including main functions)
-Our main files will include your main header file (main.h): #include main.h
-You might want to look at the gcc flag -Wno-format when testing with your _printf and the standard printf. Example of test file that you could use:
+Example of test file that you could use:
 
     alex@ubuntu:~/c/printf$ cat main.c 
 
@@ -188,14 +183,3 @@ You might want to look at the gcc flag -Wno-format when testing with your _print
     Len:[12]
 
     alex@ubuntu:~/c/printf$
-
-We strongly encourage you to work all together on a set of tests
-If the task does not specify what to do with an edge case, do the same as printf
-
-Copyright - Plagiarism
-
-1. You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-2. You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-3. You are not allowed to publish any content of this project.
-4. Any form of plagiarism is strictly forbidden and will result in removal from the program.
-
